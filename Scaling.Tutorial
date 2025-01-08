@@ -1,0 +1,33 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<html>
+<!--                                      Last Update:  09-14-2024
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="The Web Page Version of the book Redder Pastures">
+  <meta name="keywords" content="Redder Pastures, Mars, Marcus">
+  <meta name="Web Page Design, Program & Illustrator" content="Gary J Schneider">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scaling Tutorial</title>
+
+    <!-- 
+Stylesheet  for Full Screen Execution
+<link rel="stylesheet" href="style.css">
+     -->
+
+<body bgcolor="#000000" text="#00ffff" link="#0000ff" vlink="#c0c0c0" alink="#0000ff">
+
+<p>
+<img src="Scale-1.gif" width="155" height="119" alt="">
+<p>
+<img src="Scale-2.gif" width="500" height="690" alt="">
+<p>
+<img src="Scale-3.gif" width="1920" height="1080" alt="">
+<p>
+<img src="Scale-4.gif" width="1000" height="732" alt="">
+<p>
+<img src="Scale-5.gif" width="1000" height="626" alt="">
+<p>
+</body>
+</html>

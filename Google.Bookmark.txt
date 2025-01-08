@@ -1,0 +1,20 @@
+To save a bookmark in HTML using Google Chrome, you can do the following: 
+
+Click the three-bar settings icon in the top right of Chrome 
+
+Hover over "Bookmarks" and select "Bookmarks Manager" 
+
+Click "Organize" and select "Export bookmarks to an HTML file" 
+
+Navigate to the location you would like to store the backup, name the file, and select "Save" 
+
+The exported HTML file can be used to import bookmarks into another browser. 
+
+You can also create bookmarks in HTML using HTML links. This allows readers to jump to specific parts of a web page. To create a bookmark, you can: 
+
+Use the id attribute to create a bookmark 
+
+Add a link to the bookmark 
+
+When the link is clicked, the page will scroll down or up to the location with the bookmark. 
+

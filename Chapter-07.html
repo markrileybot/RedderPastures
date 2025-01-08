@@ -1,0 +1,585 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<html>
+<!--                                      Last Update:  08/19/2024
+-->
+<head>
+   <meta charset="UTF-8">
+  <meta name="description" content="The Web Page Version of the book Redder Pastures">
+  <meta name="keywords" content="Redder Pastures, Mars, Marcus">
+  <meta name="Web Page Design, Program & Illustrator" content="Gary J Schneider">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chapter 07 - Redder Pastures</title>
+
+    <!-- Stylesheet  for Full Screen Execution -->
+    <link rel="stylesheet" href="style.css">
+
+<style>
+body  {
+    background-image: url('Chapter-07.Bkgrnd.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 400px;
+  z-index: 99;
+  font-size: 18px;
+  border: 1;
+  outline: none;
+  background-color: #007384;
+  color: #10DED6;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #10DED6;
+  color: #007384;
+}
+</style>
+
+<style>
+/* Popup container - can be anything - I designed a simple Popup */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup Text & Location of Chapter Narrative */
+.popup .popuptext {
+  visibility: hidden;
+  width: 445px;
+  background-color: #007384;
+  color: ##EFE7CE;
+  text-align: left;
+  border-radius: 6px;
+  padding: 6px 2;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 20%;
+  margin-left: -10px;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+</style>
+
+   <style>
+	#go4it {
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-size: 15px;
+	}
+
+	pre {
+	overflow-x: auto;
+	}
+   </style>
+
+
+<style>
+	#go4it {
+	overflow-x: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-size: 15px;
+	}
+
+	pre {
+	overflow-x: auto;
+	}
+</style>
+
+</head>
+<body bgcolor="black" text="#10DED6" link="#10DED6" vlink="#10DED6" alink="#10DED6" leftmargin="10" topmargin="10" marginwidth="10" marginheight="10">
+
+<!--                                                                          This Process Requires "script.js" & "style.css" For Full Screen Feature     -->
+
+<body style="text-align:left">
+
+<table>
+<td width="55">
+<img src="Spacer.gif" width="55" height="1" alt="">
+</td>
+
+<td>
+<font size="4" face="arial">
+
+<center>
+&nbsp;
+<br>
+
+<!--                                                 Start Full Screen On/Off Toggle Button
+   -->
+    <button id="btn">Go Fullscreen</button>
+
+    <!-- Java Script -->
+    <script src="script.js"></script>
+<!--
+                                                      End Full Screen On/Off Toggle Button    
+ -->
+</center>
+
+<br>
+<center>
+<img src="Page-Header.gif" width="215" height="41" alt="">
+</center>
+<p>
+<br>
+
+<!--                            Start To Top of Page Routine  
+ -->
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><b>Top</b></button>
+<a name="Top"></a>
+
+<!--                            End To Top of Page  Routine                  
+  -->
+
+<p>
+
+<!--                           Start Navigation Section
+ -->
+
+<center>
+
+<IMG NAME="NavPanel0" SRC="NavPanel.gif" WIDTH="144" HEIGHT="95" BORDER="1" USEMAP="#NavPanel">
+</center>
+
+<MAP NAME="NavPanel">
+<AREA SHAPE="rect" COORDS="11,44,52,85" HREF="Chapter-06.html" TITLE="... Go Back to Chapter 06">
+<AREA SHAPE="rect" COORDS="53,45,93,84" HREF="RedderPastures.html" TITLE="... Go To Redder Pastures Home Page">
+<AREA SHAPE="rect" COORDS="95,46,133,83" HREF="Chapter-08.html" TITLE="... Go to Chapter 08">
+</MAP>
+
+<!--                           End Navigation Section
+   -->
+
+<br>
+<img src="spacer.gif" width="1" height="6" alt="">
+<br>
+
+<!--                            Pop-Up Section
+ -->
+
+<div class="popup" onclick="myFunction()"><img src="Spacer.gif" width="210" height="1" alt=""><img src="About.gif" width="120" height="47" title="..... Display Narrative" alt="">
+ <span class="popuptext" id="myPopup"><img src="Spacer.gif" width="10" height="25" alt=""><br>Chapter 07 Description<p><br>Refueling Station-3 is hit by asteroids. Sally sends out a distress signal, but help and rescue teams are too far away to help. Dr. Dumas is informed of the situation and explains that it was possible to shorten the distance in space through wormholes, but it was a very volatile process that had only been successfully executed once. Scotty makes a desperate attempt to try to rescue Sally. RFS-3 is rebuilt. Asteroid mining becomes a viable option. Sally builds a vault on RFS-3.<p><br></span>
+<p>
+</div>
+
+<script>
+// When the user clicks on the about button, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+<!--                            End Pop-Up Section 
+ -->
+<!--                             BEGIN CHAPTER 07                                                        -->
+
+<font size="4" face="arial">
+
+<div style="width:544px;overflow:auto">
+<pre id="go4it">
+
+<img src="Chapter07-Title.gif" width="540" height="36" alt="" border="2">
+<p>
+<img src="Chapter07-a.gif" width="540" height="265" alt="" border="2">
+
+<b><center><font size="+1">RFS-3 gets hit by Asteroids</font></center></b>
+Sally Cross is General Manager on Refueling Station 3 (RFS-3). She has been monitoring an asteroid forecast for her vicinity for a week now. According to the Space Force forecast, there was a 40% chance that they were going to get hit by a very unstable asteroid. Unfortunately, when the asteroid was fifty kilometers away from RFS-3 it started to break apart. A large chunk of the asteroid broke away and headed directly towards RFS-3. The asteroid continued to break apart as it approached RFS-3. RFS-3 was hit multiple times by asteroids. 
+
+When Sally saw that it was inevitable that the asteroid was going to hit RFS-3, she immediately placed a distress call asking for anyone in the vicinity, to head directly towards the refueling station, and be ready to execute a rescue mission. A short time later the asteroid hunk slammed into RFS-3. Half of the station was destroyed on impact. Three fourths of the crew were lost on impact. Injured and dying were strewn across the part of the refueling station that was still partially intact. The biggest problem was pressurization and oxygen. No part of the refueling station was unaffected. Leaks were everywhere. From the time of impact it was predicted that the survivors would be required to go to space suits in twenty-four hours. The space suits provided a livable environment for another twelve hours. So if help didn't arrive within thirty-six hours, the rest of them would be dead.
+
+The Space Force was coordinating the rescue mission. From the reports that they were receiving, there were no craft within seven days of RFS-3. Based on this, the Space Force switched the priority from a rescue mission to a recovery mission. This was essentially a death warrant for the survivors of RFS-3. With this news, Sally started preparing for the end. The wounded were given first aid and made comfortable. The rest of the survivors went about tasks all concentrating on extending their lives.
+
+
+<b><center><font size="+1">Sally Cross in danger</font></center></b>
+The next thing that Sally did after her situation stabilized was to contact Scotty. She just wanted to hear his voice one more time before the end. Scotty was Sally's bestie. They had always been there for each other and Sally could think of no better way to go out than talking to Scotty. Plus Sally knew that Scotty would do anything just for the chance of saving her. Unlike the Space Force, Scotty would not be reasonable or calculating. If there was any way to save Sally, Scotty would try it, no matter what the risk. 
+
+As predicted, as soon as Sally explained to Scotty what her situation was, he told her, I am coming to help right now. Scotty happened to be at an ISS orbiting Earth. He put in the coordinates of RFS-3 and calculated that, even in his best medium size ship, which he needed to accommodate the known survivors, he was at least two weeks away. He had to figure out a way to shorten the distance. The first person he thought of who could help him was Dr. Dumas. 
+
+So he contacted his friends, Captain Russell and Betty, and they got in touch with Dr. Dumas. She agreed to talk with Scotty to try to figure out if she could help. As soon as Scotty brought up shortening the distance in space, Dr. Dumas stopped him. She explained that it was possible to shorten distance in space through wormholes, but it was a very volatile process that had only been successfully executed by humans, once. Dr. Dumas acknowledged that Scotty was the only human to ever successfully navigate through a wormhole. She explained that it was a completely different set of circumstances. Scotty had traveled through a wormhole to escape the nuclear blasts of the satellites that the Space Force had blown up over the North Pole. When on the polar cap mission, Scotty realized that there wasn't going to be enough distance to clear the blast. He said his goodbyes and was prepared to die, knowing that the mission had been a success. That is when Dr. Dumas directed him to make the ninety degree turn and go through a wormhole. She took the risk because it was that or immediate death. Also the travel was of very short duration. A couple of seconds and a couple of hundred kilometers. It was a straight shot and it paid off. 
+
+Dr. Dumas explained that she currently uses wormholes to operate exoskeletons on Mars from the Moon. But the content being sent through the wormholes were electronic instructions not anything solid, much less human. It was just too unstable for human use for this duration.
+
+
+<b><center><font size="+1">Scotty Rescues Sally</font></center></b>
+Scotty demanded to know if it was possible. Dr. Dumas explained it certainly was possible, but the probability for success was very low. Like maybe a ten percent chance of success. Without even thinking about it, Scotty said, "let's do it, otherwise we let Sally and the other survivors on RFS-3 die."
+
+Dr. Dumas made no promises but said she would set up some tests sending physical objects through wormholes. Scotty suggested that they start testing with oxygen tanks. The exit point was set up to be one hundred meters from Refueling Station 3. If it worked, Sally and crew would be able to retrieve them and have additional oxygen and time.
+
+The first three tests failed. Either the wormhole collapsed, or the oxygen tanks never came out the other side. On the fourth try however, three out of four tanks made it through, before the wormhole collapsed. Dr. Dumas felt she had tweaked the process and put in enough safeguards to let Scotty give it a try.
+
+Time was running out for Sally and the other survivors. Scotty literally had one shot at this. There was a good chance that the wormhole would collapse around Scotty's ship, or that something else would go wrong, and he could be dumped anywhere. On the other hand, if he didn't go now, Sally would be dead within the next few hours.
+
+Scotty went for it. He entered the wormhole about two kilometers outside the ISS. Normally, travel to the RFS-3 would be two weeks. In the wormhole Scotty felt like everything was in slow motion. On his instrument panel all time stopped. Things weren't going well at all. Scotty thought the wormhole was going to collapse any second. Then suddenly, in front of him, he could see the RFS-3. Also at the same time, he had a sense that the wormhole was starting to close or maybe collapse. But as the end of the wormhole was getting smaller, he had a sense that his craft was also shrinking. The closer he was to exit, the more the craft shrank. Then he reached the exit, and he seemed like everything was exploding. This exit lasted for what seemed like a minute, then he was out. Refueling Station 3 was right in front of him. He had made it through.
+
+Next Scotty had to figure out how much time had passed. Was Sally still alive or was he too late? Scotty keyed his comms and hoped to raise Sally. His heart almost beat out of his chest when he heard. "What took you, loser." What a relief. Sally was alive and so was Scotty.
+
+Scotty's craft was not large enough to take everyone on board. What he was able to do though was to provide enough oxygen and supplies for the survivors to be okay until the Space Force rescue effort arrived. Sally set up a triage area. The dead were collected and stowed so that they could be returned to their loved ones for burial. The worst of the injured were placed on board Scotty's ship and he raced towards the medical craft that was headed their way. Then Scotty returned to RFS-3. His ship was much faster than the other ships. He then took the less injured, who were able to fit on Scotty's ship, to an approaching tanker ship that was headed their way. It had a small sick bay but they could provide first aid and start the healing process.
+
+Scotty had to swing the craft around one more time to dock at RFS-3's command module. It was time to actually take Sally and some of her command crew on board. Scotty was able to fit Sally, Schneider and Schlag on board, along with less injured personnel,  but York and Woods had to be left behind. Scotty was relatively sure that they, along with the rest of the crew who couldn't fit, would be rescued before provisions ran out. At least that was the strong argument that he made to Sally to make sure she stayed aboard. He convinced her that her medic training was needed to help the injured on his craft. After much back and forth she agreed to go with Scotty. 
+
+York and Woods knew that it was the right thing for them to stay. They had the expertise to keep as many of the systems on RFS-3 going as long as possible, which would in turn help the rest of the survivors. York even believed that he would actually be able to fix some of the systems, by cannibalizing some of the more damaged areas. When Scotty was explaining the situation, York was the first one to speak up. "I'll stay," York said. "I'm the most experienced, and I'm sure this station will need all the help it can get, if we expect to have the other survivors last until additional help arrives." 
+
+Woods nodded. "I'll stay too. I'm not going to let you go through this alone." Schlag and Schneider looked at each other again, and then they turned to Scotty. "We're ready," they said.
+
+Scotty nodded and opened the hatch. Schneider and Schlag climbed into the rescue craft, and Scotty closed the hatch behind them.
+
+"We'll be back for you," Scotty said. "Just hang in there." The rescue craft blasted off, leaving York and Woods behind. York and Woods watched as the rescue craft disappeared into the distance. They were alone, but they knew that they would be okay. They had each other, and they had their training.
+
+York and Woods settled in to wait for help to arrive. They knew that it could be days or even weeks before another rescue mission could be launched. In the meantime, they would have to conserve their food and water, and they would have to stay warm. But they were determined to survive. They had survived the asteroid crash, and they would survive this too.
+
+The next few days were difficult for York and Woods. They were cold, hungry, and tired. But they never gave up hope. They knew that help was coming, and they were determined to be ready when it arrived.
+
+Finally, after several days, another rescue craft arrived. York and Woods and the other survivors were rescued and the stored bodies were collected and taken back to Earth. All that returned, were greeted as heroes. They had survived a harrowing ordeal, and they had shown incredible courage and determination.
+
+
+<b><center><font size="+1">Refueling Station 3 was rebuilt</font></center></b>
+Refueling Station 3 needed to be rebuilt after partially being destroyed by asteroids. This was necessary because it was a vital logistics component needed for the colonization of Mars. In spite of all that happened, Sally Cross is still the station manager for RFS-3. Refueling Station 3 needed to be rebuilt after partially being destroyed by asteroids. This was necessary because it was a vital logistics component needed for the colonization of Mars. In spite of all that happened, Sally Cross is still the station manager for RFS-3. 
+
+<font size="+1">Sally Cross' plans to rebuild Refueling Station 3, as the most efficient refueling station between Earth and Mars are as follows:</font>
+
+
+<font size="+1"><b>Increase solar energy production:</b></font>
+
+Additional solar panels on the station to increase its energy production. This will allow the station to operate more independently and reduce its reliance on external fuel sources.
+
+
+<font size="+1"><b>Improve water recycling:</b></font> 
+
+Install new water recycling systems on the station to reduce waste and increase efficiency. This will allow the station to support a larger crew and operate for longer periods of time without resupply.
+
+
+<font size="+1"><b>Automate tasks: </b></font>
+
+Automate as many tasks as possible on the station to reduce the workload on the crew and improve efficiency. This will free up the crew to focus on more important tasks, such as maintaining the station and refueling spacecraft.
+
+
+<font size="+1"><b>Use modular construction:</b></font>
+
+Use modular construction to rebuild the station. This will allow the station to be rebuilt quickly and efficiently, and it will also make it easier to expand the station in the future.
+
+
+<font size="+1"><b>Design the station for scalability:</b></font>
+
+Design the station for scalability, so that it can be easily expanded to meet future needs. This will allow the station to support more spacecraft and a larger crew as space exploration continues to grow.
+
+In addition to these general plans, Sally also has some specific ideas for how to improve the efficiency of each stage of the refueling process. For example, she plans to install new docking systems that will make it easier and faster to connect spacecraft to the station. She also plans to install new fuel transfer systems that will allow spacecraft to be refueled more quickly and efficiently.
+
+Sally is confident that her plans will make Refueling Station 3 the most efficient refueling station between Earth and Mars. This will make it a vital hub for space exploration and construction in the years to come.
+
+
+<b><center><font size="+1">Sally Cross' vision for RFS-3</font></center></b>
+Sally Cross' ultimate vision for Refueling Station 3 is to make it a hub for deep space exploration. She envisions the station being used to refuel spacecraft traveling to the asteroid belt, Jupiter, and beyond.
+
+<b><font size="+1">Sally believes that Refueling Station 3 could be used to support a variety of missions, including:</font></b>
+
+Mining asteroids for valuable resources.
+
+Exploring Jupiter's Moons, particularly Europa, which is thought to have a subsurface ocean that could potentially harbor life.
+
+Sending robotic probes to Saturn and Uranus.
+
+Eventually, even sending crewed missions to these planets and beyond.
+
+<b><font size="+1">In addition to its role in supporting deep space exploration, Sally also envisions Refueling Station 3 being used for other purposes, such as:</font></b>
+
+Manufacturing spacecraft and other space-based infrastructure.
+
+Conducting scientific research in space.
+
+Providing a training ground for astronauts and other space professionals.
+
+Sally believes that RFS-3 has the potential to become a major center for human activity in space. She is committed to making the station a reality, and she believes that it will play a vital role in the future of space exploration.
+
+Here are some specific examples of how RFS-3 could be used to support new opportunities beyond Earth to Mars travel:
+
+
+<font size="+1"><b>Asteroid mining:</b></font>
+
+Refueling Station 3 could be used as a base for asteroid mining operations. Asteroids contain a variety of valuable resources, such as platinum, gold, and nickel. These resources could be mined and returned to Earth, or used to manufacture new spacecraft and other space-based infrastructure.
+
+
+<font size="+1"><b>Jupiter exploration:</b></font>
+
+It could be used to support robotic and crewed missions to Jupiter and its moons. Jupiter is the largest planet in the solar system, and it has a number of fascinating moons, including Europa, Ganymede, and Callisto. These moons are thought to have subsurface oceans that could potentially harbor life.
+
+
+<font size="+1"><b>Saturn and Uranus exploration:</b></font>
+
+It could be used to support robotic missions to Saturn and Uranus. These planets are located in the outer solar system, and they are much more difficult to reach than Jupiter. However, RFS-3 could provide the fuel that spacecraft need to make the journey to these distant planets.
+
+
+<font size="+1"><b>Interstellar travel:</b></font>
+
+In the long term, it could be used to support interstellar travel. Interstellar travel is the journey to other star systems. It is a challenging goal, but it is one that many scientists and engineers believe is achievable. RFS-3 could provide the fuel and other resources that spacecraft need to make the journey to other stars.
+
+
+<center><font size="+1"><b>Sally and Scotty plan an asteroid mining operation<br>from RFS-3</b></font></center>
+Their plan for an asteroid mining operation, with RFS-3 as the processing operation for raw minerals brought back from asteroids, is as follows:
+
+
+<b><font size="+1">Prospecting: </font></b>
+
+They will use a variety of methods to prospect for asteroids that are rich in valuable minerals. This may include using telescopes and other remote sensing instruments to identify asteroids with the right composition, or using spacecraft to fly by asteroids and collect samples.
+
+
+<b><font size="+1">Mining: </font></b>
+
+Once a suitable asteroid has been identified, they will use a variety of mining techniques to extract the valuable minerals. This may include using robotic spacecraft to drill into the asteroid and collect samples, or using explosives to blast the asteroid into smaller pieces that can then be collected.
+
+
+<b><font size="+1">Transportation: </font></b>
+
+Scotty will use his spaceship to transport the raw minerals from the asteroid to RFS-3. The spaceship will be equipped with specialized cargo holds that can safely transport the minerals.
+
+
+<b><font size="+1">Processing: </font></b>
+
+Once the raw minerals arrive at RFS-3, Sally will use a variety of processing techniques to extract the valuable metals and other elements. This may include using chemical processes to dissolve the minerals and separate the different elements, or using physical processes such as smelting to extract the metals.
+
+
+<b><font size="+1">Refining: </font></b>
+
+Once the valuable metals and other elements have been extracted, Sally will use a variety of refining techniques to produce high-purity materials. This may include using chemical processes to remove impurities, or using physical processes such as electrolysis to produce pure metals.
+
+<b><font size="+1">Sales: </font></b>
+
+Sally will sell the refined metals and other elements to a variety of customers, including companies that manufacture electronics, aerospace components, and other products.
+
+Sally and Scotty believe that their asteroid mining operation has the potential to be very profitable. Asteroid mining is a relatively new industry, but it is one that has the potential to revolutionize the way we obtain valuable resources. Sally and Scotty are excited to be at the forefront of this new industry, and they are confident that their operation will be a success.
+
+Here are some additional details about how they plan to implement their asteroid mining operation:
+
+
+<b><font size="+1">Spacecraft: </font></b>
+
+They will need to purchase or lease a spacecraft that is capable of transporting large quantities of raw materials. The spacecraft will also need to be equipped with specialized cargo holds that can safely transport the minerals.
+
+
+<b><font size="+1">Processing equipment: </font></b>
+
+Sally will need to purchase or lease processing equipment that is capable of extracting the valuable metals and other elements from the asteroid rocks. This equipment may include crushers, grinders, flotation cells, and other machinery.
+
+
+<b><font size="+1">Refining equipment: </font></b>
+
+Sally will also need to acquire refining equipment that is capable of producing high-purity materials from the processed minerals. This equipment may include electrolytic cells, furnaces, and other machinery.
+
+They are confident that they can raise the necessary capital to fund their asteroid mining operation. They are currently in talks with a number of investors, and they are optimistic that they will be able to secure the funding they need to get their operation up and running soon.
+
+
+<b><center><font size="+1">Scotty picks a valuable but unstable and <br>dangerous asteroid to mine.</font></center></b>
+His discovery of a very valuable asteroid is a great opportunity, but it also comes with great risks. The asteroid is not stable, and landing on it could be very dangerous. However, he is always up for a challenge, and he is determined to mine the asteroid, no matter what.
+
+As he approaches the asteroid, he sees that it is indeed very unstable. It is tumbling through space, and its surface is covered in jagged rocks and boulders. he knows that he will need to be very careful if he wants to land on the asteroid safely.
+
+Scotty carefully maneuvers his spaceship towards the asteroid. He uses his thrusters to slow himself down and to align himself with the asteroid's surface. Finally, he touches down on the asteroid, but the landing is rough. The asteroid shakes violently, and Scotty's spaceship is nearly thrown off balance.
+
+Scotty manages to keep his spaceship under control, but he knows that he is in a dangerous situation. The asteroid is still unstable, and it could collapse at any moment. He needs to get to work quickly and extract the valuable minerals before the asteroid becomes too unstable.
+
+He carefully gets out of his spaceship and begins to explore the asteroid. He uses his mining equipment to extract samples of the asteroid's rocks. As he works, he keeps an eye on the asteroid's surface, watching for any signs of instability.
+
+After a while, he notices that the asteroid is starting to shake more violently. He knows that he needs to get out of there quickly. He quickly gathers his samples and returns to his spaceship. He blasts off from the asteroid, just in time.
+
+Scotty has successfully extracted samples from the valuable asteroid, but he knows that he was lucky this time. He needs to be more careful in the future. He also needs to find a way to stabilize the asteroid before he can start mining it on a large scale.
+
+
+<center><font size="+1"><b>Scotty Starts Mining The Asteroid</b></font></center>
+<img src="Chapter07-b.gif" width="540" height="265" alt="" border="2">
+
+He started a mining operation on a very valuable but unstable asteroid and it almost cost him his life. This is how he barely escaped from the asteroid.
+
+He has hired a very seasoned crew for his space mining operation, and he did not pay attention to other asteroid miners who said that this asteroid was too unstable and not worth the risk. But he had always been drawn to the allure of the unknown, the thrill of the chase, and the promise of untold riches. His latest venture was no different. He had set his sights on a particularly lucrative asteroid, rumored to be teeming with rare minerals and precious metals. Its instability, however, was widely known, and many a prospector had met their untimely demise in its treacherous depths.
+
+Undeterred by the risks, he assembled a small crew of experienced miners and set off in his trusty vessel, the "Cosmic Hustler." They arrived at the asteroid without incident, its rocky surface gleaming menacingly under the harsh glare of the sun. Scotty, ever the optimist, saw not danger, but opportunity.
+
+The mining operation commenced with cautious enthusiasm. The crew, working tirelessly under his watchful eye, chipped away at the asteroid's surface, extracting valuable ore with every strike of their mining tools. But as they delved deeper into the asteroid's core, they began to notice subtle tremors, signs of the asteroid's impending instability.
+
+One fateful day, as the crew was busy harvesting a particularly rich vein, the asteroid's structure abruptly gave way. A massive section of rock broke off, sending shockwaves through the asteroid and triggering a cascade of smaller rocks and debris. Scotty and his crew were caught in the chaos, their mining equipment toppled and scattered, their escape route blocked by the fallen debris.
+
+Panic seized the crew, their once steady hands now trembling with fear. He, however, remained calm, his years of experience guiding his actions. He quickly assessed the situation, realizing that they were trapped and in imminent danger. Their only hope was to find an alternate escape route, one that would lead them out of the asteroid's collapsing heart.
+
+With time running out, he and his crew fought their way through the perilous labyrinth of tunnels and crevices, dodging falling rocks and navigating treacherous gaps. The asteroid's tremors grew stronger, the air thick with dust and debris. Scotty's heart pounded in his chest, but he pressed on, his determination unwavering.
+
+Finally, they reached a narrow shaft that seemed to lead towards the asteroid's surface. Scotty, with renewed hope, urged his crew to follow him. They clambered up the shaft, their bodies battered and bruised, their lungs burning from the exertion.
+
+Just as they were about to reach the surface, the asteroid's core finally gave way, the entire structure collapsing in on itself. The shaft they had climbed through shuddered and crumbled, threatening to bury them alive. Scotty and his crew made a desperate scramble for the opening, their lives hanging by a thread.
+
+With a final burst of adrenaline-fueled energy, he and the last of his crew emerged from the interior of the asteroid and boarded their ships. Even though the asteroid was obviously breaking apart he told his crew to gather as much material as possible from the rich vein they had worked on earlier. They quickly scooped up all readily available ore, jumped in their ships and took off. As they watched in horror, the asteroid imploded, its once formidable structure reduced to a swirling cloud of dust and debris. They were able to clear the debris field and looked back at the area that had once been an asteroid.
+
+Scotty and his crew, shaken but alive, had barely escaped the asteroid's destruction. Their mining operation, cut short by the asteroid's instability, had almost cost them their lives. 
+
+But they were rich beyond all their dreams. They realized that they had been given a second chance. Each member of the crew all made promises to themselves about how grateful they were and how they would use their new found riches for good. Some did, some didn't but they all were grateful to be alive.
+
+Scotty was humbled by the experience, but he was Scotty, and after taking a long deserved rest on RFS-3 and catching up with Sally Cross, he started doing research on another promising asteroid. Sally tried to get him to retire but he refused. Sally said, do what you think you have to do, but you can't spend your money when you are dead. The tale of their near-fatal escape became a legend among space miners, a cautionary reminder of the risks involved in their pursuit of riches among the stars. Scotty's reputation grew, as if that was possible.
+
+
+<center><font size="+1"><b>Scotty Makes a fortune</b></font></center>
+Scotty Armstrong went into an asteroid mining endeavor headquartered at RFS-3. Sally Cross ran the business for him and Scotty found and retrieved precious metals from asteroids. He was very successful at this business. Sally did make him promise to be a little more selective on the asteroids he chose. She always reminded him of the near fatal adventure he had with one of his first asteroid mining expeditions. For the most part he managed his risks.
+
+Scotty Armstrong's success in asteroid mining can be attributed to a combination of factors, including his entrepreneurial spirit, technical expertise, and strategic partnerships.
+
+He possessed an unwavering belief in the potential of asteroid mining, recognizing its ability to revolutionize the resource industry. His passion and determination fueled his perseverance through the initial challenges and setbacks that are inevitable in any new venture.
+
+His background as a pilot and privateer also gave him a huge advantage over other asteroid mining operations. With his small fast ships and his new knowledge of navigating through wormholes, he could make several quick trips in a tenth of the time that it took his competitors. As a result he could afford to cherry pick asteroids, take the most valuable and readily available minerals and bring them back to RFS-3 in short order. His knowledge of space exploration provided him with the technical knowledge necessary to navigate the complexities of asteroid mining. He was able to design and implement efficient mining techniques, utilizing advanced technologies to maximize the extraction of precious metals from asteroids.
+
+In addition to his inherent qualities and strategic partnerships, he employed several specific strategies that contributed to his success. Scotty would focus on high-value asteroids. He prioritized asteroids with a high concentration of precious metals, maximizing the profitability of each mining operation.
+
+Through his entrepreneurial spirit, technical expertise, strategic partnerships, and innovative strategies, Scotty Armstrong established himself as a pioneer in the asteroid mining industry, paving the way for future generations of space entrepreneurs.
+
+Scotty and Sally were making so much money on the asteroid mining ventures that they decided to talk to a few of their 44th Triad buddies about joining them. He was particularly interested in bringing in Captain Russell so that he would have access to tanker ships which could bring much larger loads of precious metals to Earth and Mars. So he contacted his friends and arranged to meet on RFS-3. They were to meet in the VIP back room of one of Sally's bars that she operated at the refueling station. 
+
+Captain Russell and Norman arrived first and Sally greeted them and walked with them to the VIP room. They were curious about what "opportunity" Scotty had ready to pitch to them. They were skeptical of what he was going to say because Scotty was Scotty and there was no telling what scheme he had going. Cody Jacobs was the last to arrive. He met up with him and wanted to know who else was coming to the meeting. Scotty told him, you will see and you won't be disappointed. As Cody and Scotty were walking down the access bridge getting closer to the VIP room, Cody immediately recognized a voice. Sitting in the back room of the bar was Captain Russell. Cody could picture him from his voice. He was straight out of typecasting for a pilot. Tall, jet black hair with a widow's peak and of course a touch of gray on the temples. His voice sounded like he drank whiskey and smoked cigarettes for years, because he had. From the first words out of his mouth you could imagine him saying, "This is Captain Russell, please tighten your harnesses, we will be blasting off for Mars shortly."
+
+The old friends talked, ate and drank for a couple of hours, and at the end, agreed to help out Scotty where they could. 
+
+
+<center><font size="+1"><b>Asteroid Mining Pitch</b></font></center>
+Scotty, the now seasoned asteroid miner, gathered his 44th Triad companions around a table in the back of the VIP room. Behind them was a fake fireplace with a simulated crackling fire, their faces kind of illuminated by the flickering flames. he was obviously excited about what he was about to say. He believed that this opportunity would make his friends rich for life. Scotty said his first word, hello, it is safe to say that it was at such a high pitch that you almost had to be a dog to hear it. Embarrassed, he cleared his throat and started over about three octaves lower. 
+
+"Bear with me. I know this is going to sound too good to be true but please hear me out," he began, his eyes twinkling with excitement, "or at least sit around, enjoy each other's company and enjoy the food and drink that I have provided. 
+
+Amidst the vastness of space, lie asteroids, veritable treasure troves of precious metals that could make us all wealthy." He paused, letting his words sink in, before diving into the details. "Gold, silver, platinum, palladium &#151; these are just a few of the precious metals we can expect to find on asteroids. They're scattered throughout the cosmos, remnants of the early formation of our solar system."
+
+His voice grew animated as he described the various types of asteroids and their potential riches. "M-type asteroids are like golden nuggets, filled with metals like iron, nickel, and cobalt. S-type asteroids, on the other hand, are more like silver veins, rich in precious metals like gold, silver, and platinum."
+
+He continued, his enthusiasm infectious, "And then there are the C-type asteroids, these dark, carbonaceous gems, which hold the promise of rare earth elements, the building blocks of modern technology."
+
+The 44th Triad listened intently. Everyone stayed, not because they actually believed him but because the food and drink was so damn good. They couldn't figure out how he had done it but they were actually eating Kagoshima Ribeye and were each given a bottle of Pappy Van Winkle Family Reserve, plus the hor d'oeuvres were very tasty. 
+
+"But it's not all about riches," he cautioned, his voice taking on a more serious tone. "Asteroid mining is a dangerous endeavor, full of risks and uncertainties. The cosmos is a harsh mistress, and those who venture among the stars must be prepared for the perils they may encounter."
+
+He looked at his companions, his eyes filled with a mix of determination and caution. "Are you ready to face the challenges, the dangers, and the rewards that await us among the stars?" They all agreed that it was something they might be interested in. They were always a little bit skeptical of his endeavors even though he usually came out on top. 
+
+
+<center><font size="+1"><b>Scotty offers Sally 10% to build a vault</b></font></center>
+Scotty makes an offer to Sally to give her 10% of the asteroid mining if she sets up a storage vault to store and protect his precious metals. Here is what Sally tells him.
+
+Sally, a shrewd businesswoman with a knack for logistics, listened attentively to his proposal. The prospect of a 10% stake in his burgeoning asteroid mining venture was undeniably enticing. However, she was also aware of the inherent risks involved in storing and protecting such valuable assets.
+
+"Scotty," Sally began, her voice laced with pragmatism, "I'm intrigued by your offer, but I must emphasize the magnitude of responsibility that comes with safeguarding your precious metals. Asteroid-mined resources are not only immensely valuable but also highly sought-after by rival factions and unscrupulous individuals."
+
+Scotty nodded in agreement, his eyes reflecting the gravity of Sally's words. He recognized the need for a secure and impenetrable storage facility, one that could withstand any attempt at theft or sabotage.
+
+"I understand, Sally," he replied, his voice firm and resolute. "That's why I'm seeking your expertise. Your reputation for establishing secure and efficient infrastructure precedes you. I believe you're the right person to handle this delicate task."
+
+Sally smiled, her confidence unwavering. "Indeed, Scotty, I have a proven track record of establishing a state of the art Refueling Station with secure storage facilities, even in the most challenging environments. My team and I have pioneered cutting-edge security measures, utilizing both physical and technological deterrents to safeguard precious assets."
+
+She paused, her gaze meeting his, "I am confident that we can establish a storage vault that will exceed your expectations. Your precious metals will be safeguarded with the utmost vigilance."
+
+His expression softened, a sense of relief washing over him. Sally's assurance was the validation he needed. He extended his hand, ready to seal the deal.
+
+"Sally," he said, his voice filled with gratitude, "I'm placing my trust in you and your team. I'm confident that you will create an impregnable fortress for my asteroid-mined riches."
+
+Sally grasped his hand firmly, her eyes sparkling with determination. "You have made the right choice, Scotty. Your precious metals will be in safe hands."
+
+And so, a business partnership was forged, one driven by mutual respect, expertise, and a shared vision of securing treasures. 
+
+
+<center><font size="+1"><b>Sally agrees to build a vault</b></font></center>
+Sally builds the storage vault for asteroid precious metals at RFS-3 and decides to disguise it as another fuel tank and refueling dock. Her plan was to have the mining ships dock and refuel at the special dock and be able to secretly and securely offload the precious metals. This is how it will work.
+
+<img src="Chapter07-c.gif" width="540" height="277" alt="" border="2">
+
+Sally's ingenious plan to conceal the storage vault for asteroid precious metals within the confines of Refueling Station 3 was a masterpiece of deception and strategic placement. The vault, disguised as ordinary fuel tank six and refueling dock six, would seamlessly blend into the station's bustling operations, allowing for the covert transfer of precious metals without raising any suspicions. Dock and fuel tank six were hard to get to and were seldom used. It was the perfect place to hide a high value vault in plain sight.
+
+The vault's exterior would bear an identical appearance to the surrounding fuel tanks, its metallic surface blending seamlessly into the industrial landscape. However, beneath this unassuming facade lay a labyrinth of secure chambers and compartments designed to safeguard the asteroid-mined treasures.
+
+As mining ships approached Refueling Station 3, they would be guided towards the specially designed dock, unaware of the hidden vault lurking beneath its unsuspecting surface. Upon docking, the crew would commence the standard refueling procedures, their attention focused on replenishing their fuel reserves.
+
+Meanwhile, beneath the dock, a hidden mechanism would engage, activating a series of synchronized movements that would unlock a concealed portal connecting the dock to the vault's interior. Under the cover of darkness and the distraction of refueling operations, the precious metals would be discreetly unloaded from the mining ships and transferred into the vault's secure chambers.
+
+To further enhance the disguise, Sally devised a system of automated sensors and monitoring devices that would detect any anomalies or unauthorized access to the vault. These sensors would be seamlessly integrated into the station's existing security infrastructure, ensuring that the vault's true purpose remained undetected.
+
+With Sally's meticulous planning and execution, the storage vault became an invisible fortress, a hidden treasure trove, concealed within the heart of RFS-3. The precious metals from the cosmos would reside in this clandestine sanctuary, their existence known only to a select few, a testament to Sally's ingenuity and strategic brilliance.
+
+</pre>
+</div>
+<p>
+<img src="End.of.Chapter-07.gif" width="540" height="33" alt="">
+
+<br>
+&nbsp;
+<p>
+<img src="Spacer.gif" width="180" height="1" alt="">
+
+<!--                                                                   Navigation Section    -->
+
+<IMG NAME="NavPanel0" SRC="NavPanel.gif" WIDTH="144" HEIGHT="95" BORDER="1" USEMAP="#NavPanel">
+
+<MAP NAME="NavPanel">
+<AREA SHAPE="rect" COORDS="11,44,52,85" HREF="Chapter-06.html" TITLE="... Go Back to Chapter 06">
+<AREA SHAPE="rect" COORDS="53,45,93,84" HREF="RedderPastures.html" TITLE="... Go To Redder Pastures Home Page">
+<AREA SHAPE="rect" COORDS="95,46,133,83" HREF="Chapter-08.html" TITLE="... Go to Chapter 08">
+</MAP>
+
+<!--                                                                   End Navigation Section   -->
+</td>
+</table>
+<p>
+&nbsp;
+<br>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 320px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 320 || document.documentElement.scrollTop > 320) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>

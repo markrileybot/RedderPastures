@@ -1,0 +1,26 @@
+Notes From Group Discussion on Tuesday, August 6,2024
+
+These are the "Final Touches" to be made to the web pages:
+
+
+1.  Full Screen Toggle Button - (Gary's task)
+
+Aggrement was reached to have each web page have a toggle-styled "Go/Exit Fullscreen" button at the top of the page. 
+
+
+2.  Synopsis - (Bruce's task)
+
+Have the "About" button pop-up synopsis for each web page reflect the synopses in each of the synopses web pages.
+
+
+3.  Headers and Spacing on all web pages - (Bruce's task)
+
+Have each header be "Centered", high-lighted in Bold with a font="+2" and preceeded by two (2) Blank Lines and followed by 
+one (1) Blank Line.
+
+
+4.  Flags-References (Gary's task)
+
+Place a "flag" (with a reference link) by each article within the web pages that require a reference to an external source.
+NOTE: all links will open immediately in a new tab of the browser.
+

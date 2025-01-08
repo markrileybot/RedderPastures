@@ -1,0 +1,182 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+<html>
+<!--                                      Last Update:  07/01/2024
+  -->
+<head>
+<title>Redder Pastures - The Web Book (2024)</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script LANGUAGE="JavaScript">
+
+<!--
+
+var out = new Image( );
+out.src = "Book-Front-Cover.gif";
+var over = new Image( );
+over.src = "Book-Dedication.gif";
+var down = new Image( );
+down.src = "Book-Dedication.gif";
+var up = new Image( );
+up.src = "Book-Front-Cover.gif";
+
+var out2 = new Image( );
+out2.src = "Book-Back-Cover.gif";
+var over2 = new Image( );
+over2.src = "Graphics-Info.gif";
+var down2 = new Image( );
+down2.src = "Graphics-Info.gif";
+var up2 = new Image( );
+up2.src = "Book-Back-Cover.gif";
+
+// -->
+</script>
+
+</head>
+<body background="Redder.Pastures.Bkgrnd1.gif" bgcolor="#07277A" text="Red" link="#0000ff" vlink="#FFFF00" alink="#00ff00" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>                                                                                                              <!-- TOP OF PAGE -->
+
+<!-- ----------------------------------------------------------------------------   Start Digital Clock Code   ----------------------------------------------------- -->
+
+<img src="Spacer.gif" width="239" height="22" alt="">
+<img src="Spacer.gif" width="212" height="1" alt="">
+
+<img src="dg8.gif" name="hr1">
+<img src="dg8.gif" name="hr2">
+<img src="dgc.gif">
+<img src="dg8.gif" name="mn1">
+<img src="dg8.gif" name="mn2">
+<img src="dgc.gif">
+<img src="dg8.gif" name="se1">
+<img src="dg8.gif" name="se2">
+<img src="dgpm.gif" name="ampm">
+
+<script type="text/javascript">
+// (c) 2023-2024 GJS.com
+
+dg0=new Image();dg0.src="dg0.gif";
+dg1=new Image();dg1.src="dg1.gif";
+dg2=new Image();dg2.src="dg2.gif";
+dg3=new Image();dg3.src="dg3.gif";
+dg4=new Image();dg4.src="dg4.gif";
+dg5=new Image();dg5.src="dg5.gif";
+dg6=new Image();dg6.src="dg6.gif";
+dg7=new Image();dg7.src="dg7.gif";
+dg8=new Image();dg8.src="dg8.gif";
+dg9=new Image();dg9.src="dg9.gif";
+dgam=new Image();dgam.src="dgam.gif";
+dgpm=new Image();dgpm.src="dgpm.gif";
+
+function dotime(){ 
+theTime=setTimeout('dotime()',1000);
+d = new Date();
+hr= d.getHours()+100;
+mn= d.getMinutes()+100;
+se= d.getSeconds()+100;
+if(hr==100){hr=112;am_pm='am';}
+else if(hr<112){am_pm='am';}
+else if(hr==112){am_pm='pm';}
+else if(hr>112){am_pm='pm';hr=(hr-12);}
+tot=''+hr+mn+se;
+document.hr1.src = 'dg'+tot.substring(1,2)+'.gif';
+document.hr2.src = 'dg'+tot.substring(2,3)+'.gif';
+document.mn1.src = 'dg'+tot.substring(4,5)+'.gif';
+document.mn2.src = 'dg'+tot.substring(5,6)+'.gif';
+document.se1.src = 'dg'+tot.substring(7,8)+'.gif';
+document.se2.src = 'dg'+tot.substring(8,9)+'.gif';
+document.ampm.src= 'dg'+am_pm+'.gif';
+}
+dotime();
+
+</script>
+
+<img src="Spacer.gif" width="212" height="1" alt="" border="">
+<img src="Spacer.gif" width="239" height="22" alt="" alt="" border="">
+
+<!--      -----------------------------------------------------------------   End Digital Clock Code Here   -----------------------------------------------       -->
+
+<p>
+<img src="Spacer.gif" width="375" height="1" alt="" border="">
+<a href="BeginSession.html"><img src="Addendum1.gif" width="135" height="45" alt=""></a>
+<img src="Spacer.gif" width="325" height="1" alt="">
+<a href="Info.html"><img src="Info-Button.gif" width="64" height="33" title="..... Click Here and Read About the Graphics on this Site." alt=""></a>
+<br>
+
+<table width="100%" cellpadding="5">
+<td align="left" valign="Top" border="2">
+<a href="#"
+	onMouseOver = "document.mouse_area.src = over.src" 
+	onMouseOut = "document.mouse_area.src = out.src" 
+	onMouseDown = "document.mouse_area.src = down.src" 
+	onMouseUp = "document.mouse_area.src = up.src"> 
+	<img name="mouse_area" src="Book-Front-Cover.gif" width="253" height="400" border="" alt="">
+</a>
+</td>
+
+<td align="center" valign="bottom">
+<img src="spacer.gif" width="1" height="25" alt="">
+<br>
+<img src="spacer.gif" width="10" height="40" alt="" border="">
+<br>
+<a href="TOC.html"><img src="Blue-TOC.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Page1.html"><img src="AnimatedPages.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Foreword.html"><img src="Blue-Foreword.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Chapter-07.html"><img src="Blue-Chapter07.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Chapter-01.html"><img src="Blue-Chapter01.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Chapter-08.html"><img src="Blue-Chapter08.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Chapter-02.html"><img src="Blue-Chapter02.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Chapter-09.html"><img src="Blue-Chapter09.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Chapter-03.html"><img src="Blue-Chapter03.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Chapter-10.html"><img src="Blue-Chapter10.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Chapter-04.html"><img src="Blue-Chapter04.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Epilogue.html"><img src="Blue-Epilogue.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Chapter-05.html"><img src="Blue-Chapter05.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Afterword.html"><img src="Blue-Afterword.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Chapter-06.html"><img src="Blue-Chapter06.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="References.html"><img src="Blue-References.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<br>
+<a href="Start.Synopsis.html"><img src="Animated.Synopses.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="5" height="3" alt="">
+<a href="Graphics.html"><img src="Blue-Graphics.gif" width="100" height="29" alt=""></a>
+<img src="spacer.gif" width="4" height="3" alt="" border="">
+<br>
+<img src="spacer.gif" width="42" height="49" alt="" border="">
+    <button id="btn">Go Fullscreen</button>
+</td>
+
+<td align="right" valign="Top" border=""2">
+<a href="#"
+	onMouseOver = "document.mouse2_area.src = over2.src" 
+	onMouseOut = "document.mouse2_area.src = out2.src" 
+	onMouseDown = "document.mouse2_area.src = down2.src" 
+	onMouseUp = "document.mouse2_area.src = up2.src"> 
+	<img name="mouse2_area" src="Book-Back-Cover.gif" width="253" height="400" border="" alt="">
+</a>
+</td>
+</table>
+
+</body>
+</html>

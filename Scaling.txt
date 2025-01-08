@@ -1,0 +1,18 @@
+To change the scaling on a Windows PC, you can: 
+
+Open Display settings by selecting Start > Settings > System > Display 
+
+Scroll down to Scale and layout 
+
+Select an option from the drop-down menu under Change the size of text, apps, and other items 
+
+(The Recommended option is usually the best choice)
+
+You can also choose Custom scaling to set a percentage between 100% and 500% 
+
+Click Apply to save changes
+
+Changing the scaling can affect the size of text, apps, and other items on the screen. Some programs 
+and features may not work well with larger scaling sizes.
+
+You can also change the screen resolution by using the drop-down menu under Display resolution. Changing the resolution can cause content to appear pixelated or blurry. 
